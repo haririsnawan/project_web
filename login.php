@@ -10,6 +10,7 @@ if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
+
 // Handle login request
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
@@ -38,13 +39,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - SIAK Kecamatan Klari</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div class="login-container">
         <div class="login-card">
-            <img src="path/to/logo.png" alt="Logo" class="logo">
-            <h1>SIAK</h1>
+            <img src="icon/logo.png" alt="Logo" class="logo"style="width: 180px; height: auto;">
             <p>Welcome to Kecamatan Klari</p>
 
             <hr class="divider">

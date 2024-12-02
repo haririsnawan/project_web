@@ -18,7 +18,7 @@ body {
 }
 
 .login-card {
-  background-color: #ffffff;
+  background-color: #ecf0f1;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -27,15 +27,9 @@ body {
 }
 
 .login-card .logo {
-  width: 80px;
+  width: 150px;
   height: auto;
   margin-bottom: 20px;
-}
-
-.login-card h1 {
-  font-size: 28px;
-  color: #007bff;
-  margin: 10px 0;
 }
 
 .login-card p {
@@ -115,9 +109,4 @@ body {
 
 .btn-login:hover {
   background-color: #0056b3;
-}
-
-.login-card .logo {
-  display: block;
-  margin: 0 auto;
 }
